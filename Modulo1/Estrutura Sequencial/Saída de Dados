@@ -1,0 +1,7 @@
+void main() {
+    int x = 14; //declaracao de variaveis
+    double y = 10.3457;
+    System.out.println(x);
+    System.out.println(y);
+    System.out.printf("%.2f%n", y); //printf significando formatação e o %n significa quebra de linha
+}
