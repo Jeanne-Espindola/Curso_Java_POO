@@ -57,7 +57,7 @@ Cada pasta representa um módulo ou assunto estudado durante o curso.
 
 * Java
 * Programação Orientada a Objetos (POO)
-* IntelliJ IDEA (ou Eclipse, caso utilize)
+* IntelliJ IDEA (é a que estou utilizando inclusive!)
 
 ---
 
