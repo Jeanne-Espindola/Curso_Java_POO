@@ -1,7 +1,16 @@
-void main() {
-    int x = 14; //declaracao de variaveis
-    double y = 10.3457;
-    System.out.println(x);
-    System.out.println(y);
-    System.out.printf("%.2f%n", y); //printf significando formatação e o %n significa quebra de linha
+public class Main {
+    public static void main(String[] args) {
+
+        int x = 14;
+        double y = 10.3457;
+
+        System.out.println(x);
+        System.out.println(y);
+        System.out.printf("%.2f%n", y);
+        System.out.printf("%.4f%n", y);
+        System.out.print("OLa estou tentando pular linha sem o %n\n");
+        System.out.println("Resultado = " + x + " metros");
+        System.out.printf("%f é assim que se concatena coisas com o print sabe?%n", y); //assim como funciona no c com o printf
+
+    }
 }
