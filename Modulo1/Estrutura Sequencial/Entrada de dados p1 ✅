@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        int idade;
+        Scanner entrada = new Scanner(System.in); //scanner sendo o tipo, "entrada" nome da minha variavel, o new scanner para instanciar um objeto
+        //E system.in sendo onde ele vai ler a entrada (no caso do teclado)
+        System.out.printf("\nDigite sua idade: ");
+        idade = entrada.nextInt();
+        System.out.println("Voce tem " + idade + " anos");
+        entrada.close();
+    }
+}
