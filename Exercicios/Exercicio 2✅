@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+
+public class Main {
+    public static void main(String[] args) {
+       String produto;
+       Scanner entrada = new Scanner(System.in);
+       System.out.println("Digite o nome do produto: ");
+       produto = entrada.nextLine();
+       char setor;
+       System.out.println("Digite o codigo do setor: ");
+       setor = entrada.next().charAt(0);
+       int qtd;
+       System.out.println("Digite a quantidade em estoque do produto: ");
+       qtd = entrada.nextInt();
+       double preco;
+       System.out.println("Digite o preco do produto: ");
+       preco = entrada.nextDouble();
+
+
+
+       System.out.printf("--- DADOS DO PRODUTO ---");
+       System.out.printf("\nProduto: %s", produto);
+       System.out.printf("\nSetor: %c", setor);
+       System.out.printf("\nQuantidade em estoque: %d unidades", qtd);
+       System.out.printf("\nPreço: R$%.1f", preco);
+       System.out.printf("\n-----------------------------------");
+       entrada.close();
+
+
+       
+
+
+
+
+
+    }
+}
