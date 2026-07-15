@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+       String s1, s2, s3;
+       int x;
+       Scanner entrada = new Scanner(System.in);
+       x = entrada.nextInt();
+       entrada.nextLine(); //aqui serve para consumir o \n que o x deixou por isso nextline 
+       s1 = entrada.nextLine();
+       s2 = entrada.nextLine();
+       s3 = entrada.nextLine();
+
+       System.out.print("X = " + x + "\n");
+       System.out.print("S1 = " + s1 + "\n");
+       System.out.print("S2 = " + s2 + "\n");
+       System.out.print("S3 = " + s3 + "\n");
+
+       entrada.close();
+
+    }
+}
