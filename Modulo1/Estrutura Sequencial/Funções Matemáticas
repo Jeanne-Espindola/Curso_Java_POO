@@ -1,0 +1,41 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+       double x = 3.0;
+       double y = 4.0;
+       double z = -5.0;
+       double A, B, C;
+
+
+       A = Math.sqrt(x); // 1.73..., no caso sqrt é raiz quadrada
+       B = Math.sqrt(y); // 2.0
+       C = Math.sqrt(25.0); //5.0
+
+       System.out.println("Raiz quadrada de " + x + " = " + A); //printando os resultados
+       System.out.println("Raiz quadada de " + y + " = " + B);
+       System.out.println("Raiz quadrada de 25 = " + C);
+
+       A = Math.pow(x, y); //x elevado a y, no caso 3.0 ^ 4.0 logo 81
+       B = Math.pow(x, 2.0); // x elevado a 2.0, no caso 3.0 elevado a 2.0 q da 9.0
+       C = Math.pow(5.0, 2.0); //5.0 elevado a 2.0 q vai da 25.0
+
+       System.out.println(x + " elevado a " + y + " = " + A); //imprimindo os resultados
+       System.out.println(x + " elevado ao quadrado = " + B);
+       System.out.println("5 elevado ao quadrado = " + C);
+
+       A = Math.abs(y);
+       B = Math.abs(z);
+
+       System.out.println("Valor absoluto de " + y + " = " + A);
+       System.out.println("Valor absoluto de " + z + " = " + B); //sempre o valor positivo ignorando o negativo
+
+       System.out.println("\n\nTambem podemos ter expressoes maiores, como no caso da raiz quadrada: ")
+       double delta;
+       delta = Math.pow(b, 2.0) - 4.0 * a * c;
+       double x1, x2;
+       x1 = (-b + Math.sqrt(delta)) / (2.0 * a);
+       x2 = (b + Math.sqrt(delta)) / (2.0 * a);
+
+
+    }
+}
